@@ -1,0 +1,17 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+@layer  base {
+  body {@apply bg-white max-w-6xl m-auto rounded-md text-mktext-800 p-6;}
+  articles {}
+  h1 {@apply text-5xl text-mktext-800 font-extrabold;}
+  h2 {@apply text-3xl text-mktext-800 font-extrabold;}
+}
+
+@layer components {
+  .article h2 {@apply pt-3}
+  .article p {@apply text-slate-800 pb-3}
+}
+
+/* This file is for your main application CSS */
+
