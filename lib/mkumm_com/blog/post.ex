@@ -1,6 +1,6 @@
 defmodule MkummCom.Blog.Post do
-  @enforce_keys [:id, :author, :title, :body, :description, :tags, :date, :photo]
-  defstruct [:id, :author, :title, :body, :description, :tags, :date, :photo]
+  @enforce_keys [:id, :author, :title, :body, :description, :tags, :date, :photo, :twitter, :publish]
+  defstruct [:id, :author, :title, :body, :description, :tags, :date, :photo, :twitter, :publish]
 
   def build(filename, attrs, body) do
     [year, month_day_id] = filename |> Path.rootname() |> Path.split() |> Enum.take(-2)

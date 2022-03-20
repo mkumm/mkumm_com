@@ -13,6 +13,11 @@ defmodule MkummCom.Blog do
   def all_posts, do: @posts
   def all_tags, do: @tags
 
+  def live_posts do
+    all_posts()
+    |> Enum.filter(& &1.publish)
+  end
+
   def get_post_by_date_and_id!(date, id) do
     Enum.find(all_posts(), & &1.id == id && &1.date == date) || raise NotFoundError, "post not found"
   end

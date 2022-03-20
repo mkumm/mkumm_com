@@ -3,20 +3,17 @@ defmodule MkummComWeb.PageController do
   alias MkummCom.Blog
 
   def index(conn, _params) do
-    posts = Blog.all_posts()
-    render(conn, "index.html", posts: posts)
+    posts = Blog.live_posts()
+    render(conn, "index.html", posts: posts, page_title: "Blog")
   end
   def now(conn, _params) do
-    posts = Blog.all_posts()
-    render(conn, "now.html", posts: posts)
+    render(conn, "now.html", page_title: "Now Page")
   end
   def about(conn, _params) do
-    posts = Blog.all_posts()
-    render(conn, "about.html", posts: posts)
+    render(conn, "about.html", page_title: "About")
   end
   def likes(conn, _params) do
-    posts = Blog.all_posts()
-    render(conn, "likes.html", posts: posts)
+    render(conn, "likes.html", page_title: "Likes")
   end
 
   def show(conn, params) do
@@ -26,6 +23,6 @@ defmodule MkummComWeb.PageController do
     id = Map.get(params, "id")
 
     post = Blog.get_post_by_date_and_id!(date, id)
-    render(conn, "show.html", post: post, page_title: post.title)
+    render(conn, "show.html", post: post, page_title: "Blog: " <> post.title)
   end
 end

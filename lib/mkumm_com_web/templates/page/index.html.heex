@@ -1,14 +1,18 @@
 <div id="posts" class="grid md:grid-cols-2 gap-8 mt-6">
     <%= for post <- @posts do  %>
-        <div class="figure bg-stone-100">
+    <div class="figure bg-stone-100 hover:scale-[1.03] hover:shadow-md hover:shadow-indigo-100 transition ease-in-out">
         <a href={"/post/#{post.date}/#{post.id}"}>
-            <div class="w-full h-60 rounded-t bg-cover bg-center" style={"background-image: url('#{post.photo}')"}></div>
-            <div class="px-6 py-6">
-            <h2 class="mk-text text-2xl"><%= post.title %> </h2>
-            <div class="post-description pt-2"><%= post.description %></div>
+            <div class="w-full h-60 rounded-t bg-cover bg-center" style={"background-image: url('#{post.photo}')"}>
+            </div>
+            <div class="px-6 pt-3 pb-3">
+                <h2 class="mk-text text-2xl"><%= post.title %></h2>
+                <span class="date block italic text-xs text-gray-400"><%= Calendar.strftime(post.date, "%B %d, %Y") %></span>
+                <div class="post-description pt-2">
+                    <%= post.description %>
+                </div>
             </div>
         </a>    
-        </div>
+    </div>
     <% end %>
 </div>
 
