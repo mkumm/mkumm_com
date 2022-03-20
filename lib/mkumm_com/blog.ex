@@ -2,7 +2,7 @@ defmodule MkummCom.Blog do
   alias MkummCom.Blog.Post
   use NimblePublisher,
     build: Post,
-    from: "lib/posts/**/*.md",
+    from: "lib/mkumm_com/posts/**/*.md",
     as: :posts,
     highlighters: [:makeup_elixir, :makeup_erlang]
 
