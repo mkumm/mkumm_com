@@ -4,7 +4,9 @@
     <div class="w-full h-80 bg-cover bg-center mb-3" style={"background-image: url('#{@post.photo}')"}></div>
     <div class="article">
         <%= raw @post.body %>
+        <%= if @post.twitter != "" do %>
         <div class="mx-auto text-center"><a href={"#{@post.twitter}"}>Comment on Twitter</a></div>
+        <% end %>
     </div>
     
 </div>
