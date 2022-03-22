@@ -4,7 +4,7 @@
   tags: ~w(beer),
   description: "TEA Time means beer time in Krakow!",
   photo: "https://mkumm-blog.s3.amazonaws.com/images/teatime.png",
-  twitter: "",
+  twitter: "https://twitter.com/mkumm/status/1506197073653342208",
   publish: true
 }
 ---
