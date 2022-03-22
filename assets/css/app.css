@@ -13,10 +13,10 @@
 }
 
 @layer components {
-  .article h2 {@apply pt-3 pb-1;}
-  .article a {@apply font-semibold text-gray-800 hover:text-indigo-600;}
-  .nav-link {@apply text-gray-400  font-semibold hover:text-indigo-600}
-  .selected {@apply text-indigo-600}
+  .article h2 {@apply pt-3 pb-2;}
+  .article a {@apply text-teal-700 hover:text-teal-500;}
+  .nav-link {@apply text-gray-400  font-semibold hover:text-gray-800}
+  .selected {@apply text-gray-800}
 
 }
 

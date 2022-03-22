@@ -1,6 +1,6 @@
 <div class="bg-white">
     <h1 class=""><%= @post.title %></h1>
-    <span class="date block italic text-sm text-gray-600 pt-3"><%= Calendar.strftime(@post.date, "%B %d, %Y") %></span>
+    <span class="date block italic text-sm text-gray-600 pt-2 pb-6"><%= Calendar.strftime(@post.date, "%B %d, %Y") %></span>
     <div class="w-full h-80 bg-cover bg-center mb-3" style={"background-image: url('#{@post.photo}')"}></div>
     <div class="article">
         <%= raw @post.body %>
