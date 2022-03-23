@@ -4,7 +4,7 @@
   tags: ~w(life),
   description: "Hey, I heard you like reboots...",
   photo: "https://mkumm-blog.s3.amazonaws.com/images/reboot.png",
-  twitter: "https://twitter.com/mkumm/status/1506385417062522881",
+  twitter: "",
   publish: true,
 }
 ---
