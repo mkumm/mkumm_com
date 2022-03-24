@@ -1,10 +1,10 @@
 %{
-  title: "Living Near The Edge",
+  title: "Living Near the Edge",
   author: "Michael Kumm",
   tags: ~w(life),
-  description: "So what is day to day life like so close to the Russian invasion of Ukraine?",
+  description: "So what is it like to be living in Poland these days?",
   photo: "https://mkumm-blog.s3.amazonaws.com/images/krakow_square.png",
-  twitter: "",
+  twitter: "https://twitter.com/mkumm/status/1507084286477938696",
   publish: true,
 }
 ---
