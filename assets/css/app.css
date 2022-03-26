@@ -9,6 +9,7 @@
   ul {@apply list-disc list-outside ml-6;}
   li {@apply pb-2;}
   p {@apply mb-3;}
+  ol {@apply list-decimal list-outside ml-6;}
 
 }
 
