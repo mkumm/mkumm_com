@@ -21,4 +21,4 @@ Kinda like the Spiderman or Batman reboots, I lost track on how many there are. 
 
 ## Misc
 
-This blog was built using [Nimble Publisher](https://github.com/dashbitco/nimble_publisher) and the design is my own (with helpful, frequent, and unsolicited feedback from [my partner](https://twitter.com/aneta_jag) and is freely available [in my github repos](https://github.com/mkumm/mkumm_com). All blog photos are my own and carry no copyright.
+This blog was built using [Nimble Publisher](https://github.com/dashbitco/nimble_publisher) and the design is my own (with helpful, frequent, and unsolicited feedback from [my partner](https://twitter.com/aneta_jag)) and is freely available [in my github repos](https://github.com/mkumm/mkumm_com). All blog photos are my own and carry no copyright.
