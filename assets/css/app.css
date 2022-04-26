@@ -6,6 +6,7 @@
   articles {}
   h1 {@apply text-5xl text-mktext-800 font-extrabold;}
   h2 {@apply text-3xl text-mktext-800 font-extrabold;}
+  h3 {@apply text-xl text-mktext-800 font-medium;}
   ul {@apply list-disc list-outside ml-6;}
   li {@apply pb-2;}
   p {@apply mb-3;}
