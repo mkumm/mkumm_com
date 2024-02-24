@@ -1,5 +1,16 @@
 defmodule MkummCom.Blog.Post do
-  @enforce_keys [:id, :author, :title, :body, :description, :tags, :date, :photo, :twitter, :publish]
+  @enforce_keys [
+    :id,
+    :author,
+    :title,
+    :body,
+    :description,
+    :tags,
+    :date,
+    :photo,
+    :twitter,
+    :publish
+  ]
   defstruct [:id, :author, :title, :body, :description, :tags, :date, :photo, :twitter, :publish]
 
   def build(filename, attrs, body) do
@@ -8,5 +19,4 @@ defmodule MkummCom.Blog.Post do
     date = Date.from_iso8601!("#{year}-#{month}-#{day}")
     struct!(__MODULE__, [id: id, date: date, body: body] ++ Map.to_list(attrs))
   end
-
 end

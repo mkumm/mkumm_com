@@ -1,5 +1,6 @@
 defmodule MkummCom.Blog do
   alias MkummCom.Blog.Post
+
   use NimblePublisher,
     build: Post,
     from: "lib/posts/**/*.md",
@@ -19,7 +20,8 @@ defmodule MkummCom.Blog do
   end
 
   def get_post_by_date_and_id!(date, id) do
-    Enum.find(all_posts(), & &1.id == id && &1.date == date) || raise NotFoundError, "post not found"
+    Enum.find(all_posts(), &(&1.id == id && &1.date == date)) ||
+      raise NotFoundError, "post not found"
   end
 end
 
