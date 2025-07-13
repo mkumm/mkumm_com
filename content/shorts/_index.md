@@ -8,4 +8,6 @@ groupByYear: true
 showAuthorsBadges: false
 ---
 
-Some people may call them tweets.
+Some people may call them tweets!
+
+The photo above is from our visit to [Lerici, Italy](https://maps.app.goo.gl/hDnDkPsDbfESXR9y6).
