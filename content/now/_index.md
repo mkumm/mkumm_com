@@ -42,4 +42,4 @@ I was inspired by people building useful little products, so I decided to try it
 
 I'm finally learning to speak Polish. Progress is slow, but I'm really enjoying it. If you're also interested in learning Polish, I highly recommend [Glossa](https://e-polish.eu/polish-for-foreigners)—they work with students worldwide. A special thank you to [Magdalena](https://e-polish.eu/en/polish_teachers_online/magdalena_wygladacz), my wonderful teacher!
 
-### Stuff I'm Liking
+## Stuff I'm Liking

@@ -16,7 +16,7 @@
           {{ $authorImage = $authorImage.Fill (print "288x288 q" ( $.Site.Params.Author.imagequality | default "96" )) }}
         {{ end }}
         <img
-          class="mb-6 rounded-xl h-36 w-36"
+          class="mb-6 rounded-2xl h-36 w-36 drop-shadow-md"
           width="144"
           height="144"
           alt="{{ $.Site.Params.Author.name | default " Author" }}"
