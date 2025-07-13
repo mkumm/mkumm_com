@@ -1,0 +1,6 @@
+[advanced]
+[[advanced.redirects]]
+host = "www.mkumm.com"
+source = "/{*}"
+destination = "https://mkumm.com/$1"
+kind = 301
