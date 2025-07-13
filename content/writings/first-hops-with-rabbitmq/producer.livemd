@@ -1,0 +1,23 @@
+# Untitled notebook
+
+```elixir
+Mix.install([
+  {:amqp, "~> 3.3"}
+])
+```
+
+## Section
+
+```elixir
+options = [host: "localhost", port: 5675, virtual_host: "/", username: "guest", password: "guest"]
+{:ok, connection} = AMQP.Connection.open(options)
+{:ok, channel} = AMQP.Channel.open(connection)
+```
+
+```elixir
+AMQP.Queue.declare(channel, "sneakers")
+```
+
+```elixir
+AMQP.Basic.publish(channel, "", "sneakers", "Setec Astronomy")
+```
