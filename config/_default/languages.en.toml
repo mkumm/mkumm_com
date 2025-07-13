@@ -2,7 +2,7 @@ disabled = false
 languageCode = "en"
 languageName = "English"
 weight = 1
-title = "Blowfish"
+title = "mkumm.com"
 
 [params]
   displayName = "EN"
@@ -11,7 +11,7 @@ title = "Blowfish"
   dateFormat = "2 January 2006"
   # logo = "img/logo.png"
   # secondaryLogo = "img/secondary-logo.png"
-  description = "My awesome website"
+  description = "mkumm.com"
   copyright = "CC 4.0"
 
 [params.author]
@@ -19,7 +19,7 @@ title = "Blowfish"
     email = "mike@mkumm.com"
   image = "img/mike.png"
   #imageQuality = 96
-  headline = "Mostly harmless"
+  headline = "Mostly Elixir"
   bio = "Compassion over ideology"
   links = [
     { email = "mailto:mike@mkumm.com" },

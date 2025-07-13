@@ -20,6 +20,11 @@
   pageRef = "shorts"
   weight = 20
 
+[[main]]
+  name = "Now Page"
+  pageRef = "now"
+  weight = 30
+
 #[[main]]
 #  name = "Parent"
 #  weight = 20
