@@ -11,7 +11,7 @@ summary = "It is one thing to work on a big projects with a team, another to dev
 
 ## Intro
 
-It is one thing to work on big project with a team (which I love), another to develop something potentially useful as a solo developer, even if it's just a **hobby project**. This post outline my 3-month journey building  [Sprytna.cards](https://sprytna.cards), a slightly smarter NFC business card.
+It is one thing to work on a big project with a team (which I love), another to develop something potentially useful as a solo developer, even if it's just a **hobby project**. This post outlines my 3-month journey building  [Sprytna.cards](https://sprytna.cards), a slightly smarter NFC business card.
 
 ## Why
 
