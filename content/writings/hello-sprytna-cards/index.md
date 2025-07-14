@@ -1,5 +1,5 @@
 +++
-title = 'Sprytna Cards are Available'
+title = 'Hello Sprytna Cards!'
 date = 2025-06-29T12:08:40+02:00
 tags = ['elixir', 'buildInPublic', 'dev']
 draft = false
@@ -11,7 +11,7 @@ summary = "It is one thing to work on a big projects with a team, another to dev
 
 ## Intro
 
-It is one thing to work on big projects with a team, another to develop something useful as a solo developer, even if it never escapes the **hobby project** phase. The rest of this post is my 3-month journey building  [Sprytna.cards](https://sprytna.cards).
+It is one thing to work on big project with a team (which I love), another to develop something potentially useful as a solo developer, even if it's just a **hobby project**. This post outline my 3-month journey building  [Sprytna.cards](https://sprytna.cards), a slightly smarter NFC business card.
 
 ## Why
 
@@ -69,7 +69,7 @@ I didn't want to confuse any would-be users that happened to find my site, so I 
 
 I also built a very basic admin section where I could do some basic card and user management. So basic actually that I couldn't even delete users yet!
 
-The **big idea** was to allow each users to have multiple cards and multiple profiles, mixing as they needed. This meant a user with a single card could have multiple profiles and switch which profile would be visible on a tap. This made it easy to use the same card for a conference, then switch the profile for some other use. 
+The **big idea** was to allow each users to have multiple cards and multiple profiles, mixing as they needed. This meant a user with a single card could have multiple profiles and switch which profile would be visible on a tap. This made it easy to use the same card for a conference, then switch the profile for some other use.
 
 The profile management form, still a work in progress, took a lot of time. Being able to upload images, then resize them, change background colors, edit data etc. It was both basic, a little too expansive, but usable enough for this stage of development.
 
@@ -78,7 +78,7 @@ As I handed out the cards to friends and family I quickly learned 4 things
 1. Some users didn't want a profile. They just wanted someone to tap their card to open their Calendly/Instagram/website.
 2. Some users wanted to receive contact information from other people more than they wanted to give contact information. Collect cards, not give them.
 3. Profiles were being stretched into some kind of marketing website - "I want this to be my website".
-4. And people **loved getting a customized card**. On a side note, this could be a business on its own. 
+4. And people **loved getting a customized card**. On a side note, this could be a business on its own.
 
 **Total Development Cost (so far)**: $85
 
@@ -111,7 +111,7 @@ I won't bore you with all the details. Basically it took me an additional 2 mont
 
 AI (Claude Code in my case) was really helpful at assisting with many of those _secondary_ details.
 
-In the end I probably built too much (_It's an old Dean Martin recipe_ :) ) So now I am feature complete from the first batch of learnings and ready to add more people and gain more learnings. 
+In the end I probably built too much (_It's an old Dean Martin recipe_ :) ) So now I am feature complete from the first batch of learnings and ready to add more people and gain more learnings.
 
 **Features added include:**
 
