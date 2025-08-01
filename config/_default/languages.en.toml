@@ -17,9 +17,9 @@ title = "mkumm.com"
 [params.author]
     name = "Michael Kumm"
     email = "mike@mkumm.com"
-  image = "img/mike.png"
+  image = ""
   #imageQuality = 96
-  headline = "Mostly Elixir"
+  headline = "I am a software developer focused on functional languages - most of my code is Elixir"
   bio = "Compassion over ideology"
   links = [
      { linkedin = "https://linkedin.com/in/mkumm" },
