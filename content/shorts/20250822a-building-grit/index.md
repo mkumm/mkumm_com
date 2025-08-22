@@ -7,17 +7,17 @@ tags: ["personal", "99xof"]
 showAuthor: false
 ---
 
-## Face Slapper
+## Face Slapper - Wake Up Call
 
 [Brian Tracy on X](https://x.com/BrianTracy) during a [recent live broadcast](https://x.com/i/broadcasts/1dRKZazegnAxB) asked "... if you could only develop one habit so you could be more successful and happy, what would it be?"
 
 For me the answer was instant, like something from deep inside screaming to get out - **Grit**.
 
-_Lately, I'vd been.._
+_Lately, I've been.._
 
 - Getting lazy
 - Not taking ownership for results.
-- Giving other people excuses before I even asked the question. _They won't help me on this, I won't bother them_
+- Giving people excuses before even asking the question. _"They won't help me on this, I won't bother them."_
 - Taking breaks the moment I get a _little tired_.
 - Quitting when frustration shows up.
 - Giving 25 minutes when I agreed to 30.
@@ -25,9 +25,9 @@ _Lately, I'vd been.._
 
 I could go on. Bottom line: I wasn't showing grit — I wasn't owning the results. I was settling for whatever results came my way - mediocrity.
 
-## Awareness is the first step
+## Building Grit
 
-Over the next 99 days (I chose that number for a reason) I will share my progress towards increasing my "grittiness". What it looks like and how I measure progress. I have some ideas on the process and I will share my progress as I go. I will summarize the results in future blog post.
+Awareness was the first step. I expect much more of myself. Over the next 99 days (I chose that number for a reason) I will share my progress towards increasing my "grittiness". What it looks like, how I measure progress, and what results I getting on the way. I will summarize the experience in a long-form future blog post.
 
 ## What is Grit?
 
